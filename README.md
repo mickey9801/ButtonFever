@@ -229,7 +229,7 @@ void loop() {
    
    Parameter                     | Description
    ------------------------------|------------
-   button\_mode\_t mode          | Declare button mode. Assign `BfButton::ANALOG_BUTTON_ARRAY` for standalone digital button.
+   button\_mode\_t mode          | Declare button mode. Assign `BfButton::ANALOG_BUTTON_ARRAY` for button in button array.
    uint8\_t id                   | ID of the button
 
    ```cpp
