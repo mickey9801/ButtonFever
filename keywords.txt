@@ -1,0 +1,51 @@
+########################################
+# Syntax Coloring Map For ButtonFever
+########################################
+
+########################################
+# Datatypes (KEYWORD1)
+########################################
+
+BfButton					KEYWORD1
+BfButtonManager				KEYWORD1
+
+########################################
+# Methods and Functions (KEYWORD2)
+########################################
+
+# BfButton Class
+onPress					KEYWORD2
+onDoublePress			KEYWORD2
+onPressFor				KEYWORD2
+updateState				KEYWORD2
+read					KEYWORD2
+loop					KEYWORD2
+getID					KEYWORD2
+getPin					KEYWORD2
+
+# BfButtonManager Class
+setADCResolution		KEYWORD2
+addButton				KEYWORD2
+getButton				KEYWORD2
+begin					KEYWORD2
+loop					KEYWORD2
+_updateButtonState		KEYWORD2
+_readButton				KEYWORD2
+
+########################################
+# Instances (KEYWORD2)
+########################################
+
+
+########################################
+# Structures (KEYWORD3)
+########################################
+
+
+########################################
+# Constants (LITERAL1)
+########################################
+IDLE					LITERAL1
+PRESSING				LITERAL1
+STANDALONE_DIGITAL		LITERAL1
+ANALOG_BUTTON_ARRAY		LITERAL1
