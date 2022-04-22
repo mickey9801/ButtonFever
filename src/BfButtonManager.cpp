@@ -67,7 +67,7 @@ void BfButtonManager::begin() {
 
 void BfButtonManager::loop() {
   unsigned long curTime = millis();
-  if (curTime - this->_lastLoop >= this->_loopInterval) {
+  if (this->_lastLoop==0 || curTime - this->_lastLoop >= this->_loopInterval) {
     this->_lastLoop = curTime;
     this->_updateButtonState();
   }
